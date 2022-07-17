@@ -1,0 +1,93 @@
+body {
+  user-select: none;
+  background-color: #fff2f9FF;
+}
+
+p {
+  margin: 0;
+}
+
+.view {
+  width: 600px;
+  height: 500px;
+  position: relative;
+}
+
+.center {
+  text-align: center;
+  margin: auto;
+}
+
+.center-abs {
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+.s-head {
+  font-size: 25px;
+}
+
+.m-head {
+  font-size: 35px;
+}
+
+.fancy {
+  font-family: 'Supermercado One', cursive;
+}
+
+.rounded {
+  border-radius: 25px;
+}
+
+.menu-btn {
+  border-radius: 6px;
+  font-family: monospace;
+  color: white;
+  width: 300px;
+  font-size: 30px;
+  box-shadow: 5px 10px 18px black;
+  padding: 8px;
+  background-color: #c2a7ffFF;
+  transition: width 100ms ease-in-out, background-color 100ms ease-in-out;
+}
+
+.menu-btn:hover {
+  width: 330px;
+  background-color: #bb6dff;
+}
+
+.descript {
+  font-family: 'Cormorant SC', serif;
+  text-align: center;
+  margin: auto;
+  width: 350px;
+  background-color: #c6b3d1ff;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 28px;
+}
+
+#display {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  width: 600px;
+  height: 500px;
+  overflow-y: auto;
+  display: none;
+}
+
+#welcome-menu {
+  top: 50px;
+  position: absolute;
+}
+
+#respub-sec {
+  display: none;
+}
