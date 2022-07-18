@@ -70,6 +70,22 @@ p {
   font-size: 28px;
 }
 
+.returnBtn {
+  border-radius: 6px;
+  font-family: monospace;
+  color: white;
+  width: 100px;
+  box-shadow: 5px 10px 18px black;
+  padding: 8px;
+  background-color: #c2a7ffFF;
+  transition: width 100ms ease-in-out, background-color 100ms ease-in-out;
+}
+
+.returnBtn:hover {
+  width: 330px;
+  background-color: #bb6dff;
+}
+
 #display {
   top: 0;
   left: 0;
@@ -83,7 +99,7 @@ p {
   display: none;
 }
 
-#welcome-menu {
+#welcome-menu, #respub-menu {
   top: 50px;
   position: absolute;
 }
