@@ -86,6 +86,14 @@ p {
   background-color: #bb6dff;
 }
 
+.typewrite {
+  font-family: monospace;
+}
+
+.boxed {
+  width: 500px;
+}
+
 #display {
   top: 0;
   left: 0;
